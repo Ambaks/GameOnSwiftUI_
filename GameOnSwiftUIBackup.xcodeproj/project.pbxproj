@@ -7,18 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CABC8B0B2C21F25200E843C0 /* GameOnSwiftUIBackupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABC8B0A2C21F25200E843C0 /* GameOnSwiftUIBackupApp.swift */; };
-		CABC8B0D2C21F25200E843C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABC8B0C2C21F25200E843C0 /* ContentView.swift */; };
+		CA3D67B22C9F10E7002E6290 /* GameOnSwiftUIBackupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D67B12C9F10E7002E6290 /* GameOnSwiftUIBackupApp.swift */; };
+		CA3D67BE2C9F1398002E6290 /* CreateEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D67B62C9F1397002E6290 /* CreateEventView.swift */; };
+		CA3D67BF2C9F1398002E6290 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D67B72C9F1397002E6290 /* InputView.swift */; };
+		CA3D67C02C9F1398002E6290 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D67B82C9F1397002E6290 /* SideMenuHeaderView.swift */; };
+		CA3D67C12C9F1398002E6290 /* SideMenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D67B92C9F1397002E6290 /* SideMenuRowView.swift */; };
+		CA3D67C22C9F1398002E6290 /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D67BA2C9F1397002E6290 /* DropDownView.swift */; };
+		CA3D67C32C9F1398002E6290 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D67BB2C9F1398002E6290 /* SettingsRowView.swift */; };
+		CA3D67C42C9F1398002E6290 /* EditRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D67BC2C9F1398002E6290 /* EditRowView.swift */; };
+		CA3D67C52C9F1398002E6290 /* DropDownInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D67BD2C9F1398002E6290 /* DropDownInputView.swift */; };
+		CA3D67CA2C9F1431002E6290 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D67C92C9F1431002E6290 /* ProfileView.swift */; };
+		CA3D67F82C9F1B85002E6290 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D67F72C9F1B85002E6290 /* ContentView.swift */; };
+		CA3D67FB2C9F1B9E002E6290 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D67F92C9F1B9E002E6290 /* MapView.swift */; };
+		CA3D67FC2C9F1B9E002E6290 /* SidePanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D67FA2C9F1B9E002E6290 /* SidePanelView.swift */; };
+		CA3D68002C9F1BA6002E6290 /* GeoPointSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D67FD2C9F1BA6002E6290 /* GeoPointSolution.swift */; };
+		CA3D68012C9F1BA6002E6290 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D67FE2C9F1BA6002E6290 /* MapViewModel.swift */; };
+		CA3D68022C9F1BA6002E6290 /* SideMenuOptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D67FF2C9F1BA6002E6290 /* SideMenuOptionModel.swift */; };
+		CA3D680C2C9F1D03002E6290 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D680A2C9F1D03002E6290 /* Event.swift */; };
+		CA3D680D2C9F1D03002E6290 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D680B2C9F1D03002E6290 /* User.swift */; };
+		CA3D681E2C9F1EE5002E6290 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA3D681D2C9F1EE5002E6290 /* GoogleService-Info.plist */; };
 		CABC8B0F2C21F25300E843C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABC8B0E2C21F25300E843C0 /* Assets.xcassets */; };
 		CABC8B122C21F25300E843C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABC8B112C21F25300E843C0 /* Preview Assets.xcassets */; };
+		CAD33CD92C25AEEC00203777 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CAD33CD82C25AEEC00203777 /* FirebaseAuth */; };
+		CAD33CDB2C25AEEC00203777 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CAD33CDA2C25AEEC00203777 /* FirebaseDatabaseSwift */; };
+		CAD33CDD2C25AEEC00203777 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CAD33CDC2C25AEEC00203777 /* FirebaseFirestoreSwift */; };
+		CAD33CE12C25AF6A00203777 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD33CE02C25AF6A00203777 /* AuthViewModel.swift */; };
+		CAD33CE72C25AFF600203777 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD33CE62C25AFF600203777 /* LoginView.swift */; };
+		CAD33CEA2C25B02300203777 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD33CE92C25B02300203777 /* RegistrationView.swift */; };
+		CAD33CEC2C25B05A00203777 /* RegistrationCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD33CEB2C25B05A00203777 /* RegistrationCreationView.swift */; };
+		CAD33CF02C25B18800203777 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD33CEF2C25B18800203777 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA3D67B12C9F10E7002E6290 /* GameOnSwiftUIBackupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOnSwiftUIBackupApp.swift; sourceTree = "<group>"; };
+		CA3D67B62C9F1397002E6290 /* CreateEventView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateEventView.swift; path = ../../../GameOnSwiftUI/GameOnSwiftUI/Components/CreateEventView.swift; sourceTree = "<group>"; };
+		CA3D67B72C9F1397002E6290 /* InputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InputView.swift; path = ../../../GameOnSwiftUI/GameOnSwiftUI/Components/InputView.swift; sourceTree = "<group>"; };
+		CA3D67B82C9F1397002E6290 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SideMenuHeaderView.swift; path = ../../../GameOnSwiftUI/GameOnSwiftUI/Components/SideMenuHeaderView.swift; sourceTree = "<group>"; };
+		CA3D67B92C9F1397002E6290 /* SideMenuRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SideMenuRowView.swift; path = ../../../GameOnSwiftUI/GameOnSwiftUI/Components/SideMenuRowView.swift; sourceTree = "<group>"; };
+		CA3D67BA2C9F1397002E6290 /* DropDownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropDownView.swift; path = ../../../GameOnSwiftUI/GameOnSwiftUI/Components/DropDownView.swift; sourceTree = "<group>"; };
+		CA3D67BB2C9F1398002E6290 /* SettingsRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsRowView.swift; path = ../../../GameOnSwiftUI/GameOnSwiftUI/Components/SettingsRowView.swift; sourceTree = "<group>"; };
+		CA3D67BC2C9F1398002E6290 /* EditRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditRowView.swift; path = ../../../GameOnSwiftUI/GameOnSwiftUI/Components/EditRowView.swift; sourceTree = "<group>"; };
+		CA3D67BD2C9F1398002E6290 /* DropDownInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropDownInputView.swift; path = ../../../GameOnSwiftUI/GameOnSwiftUI/Components/DropDownInputView.swift; sourceTree = "<group>"; };
+		CA3D67C92C9F1431002E6290 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileView.swift; path = ../../../../GameOnSwiftUI/GameOnSwiftUI/Core/Profile/ProfileView.swift; sourceTree = "<group>"; };
+		CA3D67F72C9F1B85002E6290 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA3D67F92C9F1B9E002E6290 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		CA3D67FA2C9F1B9E002E6290 /* SidePanelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidePanelView.swift; sourceTree = "<group>"; };
+		CA3D67FD2C9F1BA6002E6290 /* GeoPointSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoPointSolution.swift; sourceTree = "<group>"; };
+		CA3D67FE2C9F1BA6002E6290 /* MapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		CA3D67FF2C9F1BA6002E6290 /* SideMenuOptionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuOptionModel.swift; sourceTree = "<group>"; };
+		CA3D680A2C9F1D03002E6290 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		CA3D680B2C9F1D03002E6290 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CA3D681D2C9F1EE5002E6290 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "GameOnSwiftUIBackup/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		CABC8B072C21F25200E843C0 /* GameOnSwiftUIBackup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOnSwiftUIBackup.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CABC8B0A2C21F25200E843C0 /* GameOnSwiftUIBackupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOnSwiftUIBackupApp.swift; sourceTree = "<group>"; };
-		CABC8B0C2C21F25200E843C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CABC8B0E2C21F25300E843C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CABC8B112C21F25300E843C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAD33CE02C25AF6A00203777 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		CAD33CE62C25AFF600203777 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CAD33CE92C25B02300203777 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		CAD33CEB2C25B05A00203777 /* RegistrationCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationCreationView.swift; sourceTree = "<group>"; };
+		CAD33CEF2C25B18800203777 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +73,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAD33CDB2C25AEEC00203777 /* FirebaseDatabaseSwift in Frameworks */,
+				CAD33CD92C25AEEC00203777 /* FirebaseAuth in Frameworks */,
+				CAD33CDD2C25AEEC00203777 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA3D67C62C9F13F2002E6290 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CAD33CE32C25AFC800203777 /* Authentication */,
+				CA3D67F42C9F19AF002E6290 /* Map */,
+				CA3D67C82C9F141E002E6290 /* Profile */,
+				CAD33CE22C25AFB400203777 /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CA3D67C82C9F141E002E6290 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CA3D67C92C9F1431002E6290 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		CA3D67F42C9F19AF002E6290 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				CA3D67F62C9F19D7002E6290 /* View Model */,
+				CA3D67F52C9F19CF002E6290 /* Views */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		CA3D67F52C9F19CF002E6290 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA3D67F92C9F1B9E002E6290 /* MapView.swift */,
+				CA3D67FA2C9F1B9E002E6290 /* SidePanelView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CA3D67F62C9F19D7002E6290 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA3D67FD2C9F1BA6002E6290 /* GeoPointSolution.swift */,
+				CA3D67FE2C9F1BA6002E6290 /* MapViewModel.swift */,
+				CA3D67FF2C9F1BA6002E6290 /* SideMenuOptionModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		CA3D68092C9F1C6D002E6290 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA3D680A2C9F1D03002E6290 /* Event.swift */,
+				CA3D680B2C9F1D03002E6290 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		CABC8AFE2C21F25200E843C0 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +157,13 @@
 		CABC8B092C21F25200E843C0 /* GameOnSwiftUIBackup */ = {
 			isa = PBXGroup;
 			children = (
-				CABC8B0A2C21F25200E843C0 /* GameOnSwiftUIBackupApp.swift */,
-				CABC8B0C2C21F25200E843C0 /* ContentView.swift */,
+				CA3D681D2C9F1EE5002E6290 /* GoogleService-Info.plist */,
 				CABC8B0E2C21F25300E843C0 /* Assets.xcassets */,
+				CAD33CED2C25B08200203777 /* App */,
+				CAD33CF12C25B24000203777 /* Components */,
+				CA3D67C62C9F13F2002E6290 /* Core */,
+				CAD33CEE2C25B0D900203777 /* Managers */,
+				CA3D68092C9F1C6D002E6290 /* Model */,
 				CABC8B102C21F25300E843C0 /* Preview Content */,
 			);
 			path = GameOnSwiftUIBackup;
@@ -65,6 +175,72 @@
 				CABC8B112C21F25300E843C0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAD33CE22C25AFB400203777 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				CA3D67F72C9F1B85002E6290 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		CAD33CE32C25AFC800203777 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				CAD33CE52C25AFD800203777 /* View Model */,
+				CAD33CE42C25AFD000203777 /* Views */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		CAD33CE42C25AFD000203777 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CAD33CE62C25AFF600203777 /* LoginView.swift */,
+				CAD33CE92C25B02300203777 /* RegistrationView.swift */,
+				CAD33CEB2C25B05A00203777 /* RegistrationCreationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CAD33CE52C25AFD800203777 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				CAD33CE02C25AF6A00203777 /* AuthViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		CAD33CED2C25B08200203777 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CA3D67B12C9F10E7002E6290 /* GameOnSwiftUIBackupApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CAD33CEE2C25B0D900203777 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CAD33CEF2C25B18800203777 /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CAD33CF12C25B24000203777 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CA3D67B62C9F1397002E6290 /* CreateEventView.swift */,
+				CA3D67BD2C9F1398002E6290 /* DropDownInputView.swift */,
+				CA3D67BA2C9F1397002E6290 /* DropDownView.swift */,
+				CA3D67BC2C9F1398002E6290 /* EditRowView.swift */,
+				CA3D67B72C9F1397002E6290 /* InputView.swift */,
+				CA3D67BB2C9F1398002E6290 /* SettingsRowView.swift */,
+				CA3D67B82C9F1397002E6290 /* SideMenuHeaderView.swift */,
+				CA3D67B92C9F1397002E6290 /* SideMenuRowView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +259,11 @@
 			dependencies = (
 			);
 			name = GameOnSwiftUIBackup;
+			packageProductDependencies = (
+				CAD33CD82C25AEEC00203777 /* FirebaseAuth */,
+				CAD33CDA2C25AEEC00203777 /* FirebaseDatabaseSwift */,
+				CAD33CDC2C25AEEC00203777 /* FirebaseFirestoreSwift */,
+			);
 			productName = GameOnSwiftUIBackup;
 			productReference = CABC8B072C21F25200E843C0 /* GameOnSwiftUIBackup.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +292,9 @@
 				Base,
 			);
 			mainGroup = CABC8AFE2C21F25200E843C0;
+			packageReferences = (
+				CAD33CD72C25AEEC00203777 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = CABC8B082C21F25200E843C0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +311,7 @@
 			files = (
 				CABC8B122C21F25300E843C0 /* Preview Assets.xcassets in Resources */,
 				CABC8B0F2C21F25300E843C0 /* Assets.xcassets in Resources */,
+				CA3D681E2C9F1EE5002E6290 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +322,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CABC8B0D2C21F25200E843C0 /* ContentView.swift in Sources */,
-				CABC8B0B2C21F25200E843C0 /* GameOnSwiftUIBackupApp.swift in Sources */,
+				CAD33CE72C25AFF600203777 /* LoginView.swift in Sources */,
+				CA3D67C22C9F1398002E6290 /* DropDownView.swift in Sources */,
+				CA3D68002C9F1BA6002E6290 /* GeoPointSolution.swift in Sources */,
+				CA3D67F82C9F1B85002E6290 /* ContentView.swift in Sources */,
+				CAD33CE12C25AF6A00203777 /* AuthViewModel.swift in Sources */,
+				CAD33CEA2C25B02300203777 /* RegistrationView.swift in Sources */,
+				CA3D67B22C9F10E7002E6290 /* GameOnSwiftUIBackupApp.swift in Sources */,
+				CA3D67C42C9F1398002E6290 /* EditRowView.swift in Sources */,
+				CA3D68022C9F1BA6002E6290 /* SideMenuOptionModel.swift in Sources */,
+				CA3D67C32C9F1398002E6290 /* SettingsRowView.swift in Sources */,
+				CA3D67C12C9F1398002E6290 /* SideMenuRowView.swift in Sources */,
+				CA3D67FB2C9F1B9E002E6290 /* MapView.swift in Sources */,
+				CA3D680C2C9F1D03002E6290 /* Event.swift in Sources */,
+				CA3D68012C9F1BA6002E6290 /* MapViewModel.swift in Sources */,
+				CA3D67CA2C9F1431002E6290 /* ProfileView.swift in Sources */,
+				CA3D67C02C9F1398002E6290 /* SideMenuHeaderView.swift in Sources */,
+				CA3D67C52C9F1398002E6290 /* DropDownInputView.swift in Sources */,
+				CAD33CEC2C25B05A00203777 /* RegistrationCreationView.swift in Sources */,
+				CA3D67FC2C9F1B9E002E6290 /* SidePanelView.swift in Sources */,
+				CA3D67BE2C9F1398002E6290 /* CreateEventView.swift in Sources */,
+				CA3D67BF2C9F1398002E6290 /* InputView.swift in Sources */,
+				CAD33CF02C25B18800203777 /* LocationManager.swift in Sources */,
+				CA3D680D2C9F1D03002E6290 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +548,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CAD33CD72C25AEEC00203777 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.28.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CAD33CD82C25AEEC00203777 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CAD33CD72C25AEEC00203777 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CAD33CDA2C25AEEC00203777 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CAD33CD72C25AEEC00203777 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		CAD33CDC2C25AEEC00203777 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CAD33CD72C25AEEC00203777 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CABC8AFF2C21F25200E843C0 /* Project object */;
 }

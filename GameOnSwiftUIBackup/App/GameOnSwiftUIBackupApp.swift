@@ -9,7 +9,7 @@ import SwiftUI
 import Firebase
 
 @main
-struct GameOnSwiftUIBApp: App {
+struct GameOnSwiftUIBackupApp: App {
     
     @StateObject var viewModel = AuthViewModel()
     
